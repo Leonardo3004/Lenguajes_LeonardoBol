@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
+//variables requeridas
 var caracter uint8 = 0
 var palabras uint8 = 0
 var lineas uint8 = 0
 
+//se inserta el texto a evaluar
 const texto = "Ellos solían escuchar voces.\nAntes de que los jugadores pudiesen leer.\nEn aquellos días cuando los que no podían jugar llamaban brujos a los jugadores.\nY los jugadores soñaron que volaban por los aires, sobre palos alimentados por demonios."
 
+//funcion que cuenta las variables
 func contar() {
 	if texto == "" {
 		fmt.Println("El texto esta vacio")
