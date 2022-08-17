@@ -133,13 +133,13 @@ func main() {
 	fmt.Println("-----------------------")
 	fmt.Println(lProductos.listarProductosMínimos())
 	fmt.Println("-----------------------")
-	fmt.Println("Practtca 2 ejercicio 1.a")
+	fmt.Println("Practica 2 ejercicio 1.a")
 	//se invoca el ejercico 1.a
 
 	lProductos.aumentarInventarioDeMinimos()
 	fmt.Println(lProductos)
 	fmt.Println("-----------------------")
-	fmt.Println("Practtca 2 ejercicio 1.b")
+	fmt.Println("Practica 2 ejercicio 1.b")
 	//Se invoca el ejercicio 1.b
 
 	lProductos.ordenarAcendenteCantida()
